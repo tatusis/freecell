@@ -1,0 +1,67 @@
+---
+icon: "freecell_64.png"
+fps: 120
+
+screen_width: 1700
+screen_height: 956
+screen_color: [82, 152, 72]
+screen_title: "FreeCell"
+
+default_font: "Rubik-Bold.ttf"
+default_font_size: 28
+default_font_color: [255, 255, 255]
+
+title_font: "nexa-rust.slab-black-shadow-01.otf"
+title_font_size: 88
+
+title_text: "FREECELL"
+start_text: "PRESS  ENTER  TO PLAY"
+exit_text: "PRESS  ESC  TO QUIT"
+menu_text: "PRESS  BACKSPACE  FOR MENU"
+new_game_text: "PRESS  N  FOR NEW GAME"
+restart_text: "PRESS  R  FOR RESTART"
+
+background_sound: "awesomeness.wav"
+start_sound: "cuckoo.wav"
+loading_sound: "shuffleandbridge.wav"
+background_music: "calmbgm.ogg"
+
+suits: ["Clubs", "Diamonds", "Hearts", "Spades"]
+ranks: ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
+
+dealer_position_x: 570
+dealer_position_y: 1065
+
+card_being_dragged_layer: 100
+card_width: 110
+card_height: 149
+card_offset_x: 45
+card_offset_y: 199
+card_margin_x: 40
+card_drag_sound: "cardSlide1.ogg"
+card_drop_sound: "cardPlace1.ogg"
+card_moving_time: 0.4
+# multiple_card_moving_time: 0
+card_minimal_border_color: [0, 0, 0]
+card_minimal_border_width: 1
+card_minimal_border_radius: 2
+card_highlighted_border_color: [152, 72, 82]
+card_highlighted_border_width: 5
+card_highlighted_border_radius: 2
+
+moving_shadow_offset: 14
+shadow_offset: 2
+shadow_color: [0, 0, 0]
+shadow_alpha: 175
+shadow_border_width: 5
+shadow_border_radius: 2
+
+cell_sprite: "cardBack_green3.png"
+foundation_cell_sprite: "cardBack_green5.png"
+free_cell_offset_x: 45
+foundation_cell_offset_x: 185
+cell_alpha: 125
+cell_offset_y: 25
+cell_margin_x: 20
+cell_highlight_color: [72, 82, 152]
+cell_border_width: 5

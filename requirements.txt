@@ -1,0 +1,3 @@
+pygame==2.6.1
+pyaml==25.1.0
+opencv-python==4.11.0.86
