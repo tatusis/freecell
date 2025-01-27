@@ -10,19 +10,21 @@ An implementation of the Freecell card game in python with pygame
 
 ![image](/docs/images/main_scene.png "Screenshot - Main scene")
 
-## Python
-
-* Python 3.12+
-
 ## Start here
 
-1. You will need to install the following packages:
+1. You need to have python installed (Version 3.12+). Just check the version with the following command:
+
+```
+python --version
+```
+
+2. You will need to create an environment and install the following packages:
 
 ```
 pip install -r requirements.txt
 ```
 
-2. To play, simply run the command below:
+3. To play, simply run the command below:
 
 ```
 python -m freecell
