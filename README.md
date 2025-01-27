@@ -2,6 +2,14 @@
 
 An implementation of the Freecell card game in python with pygame
 
+* Menu scene:
+
+![image](/docs/images/print00.webp "Screenshot - Menu scene")
+
+* Main scene:
+
+![image](/docs/images/print01.webp "Screenshot - Main scene")
+
 ## Play
 
 To play, simply run the command below:
