@@ -16,10 +16,10 @@ title_font_size: 88
 
 title_text: "FREECELL"
 start_text: "PRESS  ENTER  TO PLAY"
-exit_text: "PRESS  ESC  TO QUIT"
+exit_text: "PRESS  ESC  TO EXIT"
 menu_text: "PRESS  BACKSPACE  FOR MENU"
 new_game_text: "PRESS  N  FOR NEW GAME"
-restart_text: "PRESS  R  FOR RESTART"
+restart_text: "PRESS  R  TO RESTART"
 
 background_sound: "awesomeness.wav"
 start_sound: "cuckoo.wav"
